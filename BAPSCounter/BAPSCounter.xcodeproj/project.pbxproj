@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67AA63F6195B505500D55122 /* NGTotalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67AA63F5195B505500D55122 /* NGTotalCell.m */; };
+		67B00E17195B47BC00A592C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B00E16195B47BC00A592C9 /* Foundation.framework */; };
+		67B00E19195B47BC00A592C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B00E18195B47BC00A592C9 /* CoreGraphics.framework */; };
+		67B00E1B195B47BC00A592C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B00E1A195B47BC00A592C9 /* UIKit.framework */; };
+		67B00E21195B47BC00A592C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67B00E1F195B47BC00A592C9 /* InfoPlist.strings */; };
+		67B00E23195B47BC00A592C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B00E22195B47BC00A592C9 /* main.m */; };
+		67B00E27195B47BC00A592C9 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B00E26195B47BC00A592C9 /* NGAppDelegate.m */; };
+		67B00E2A195B47BC00A592C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B00E28195B47BC00A592C9 /* Main.storyboard */; };
+		67B00E2D195B47BC00A592C9 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B00E2C195B47BC00A592C9 /* NGViewController.m */; };
+		67B00E2F195B47BC00A592C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B00E2E195B47BC00A592C9 /* Images.xcassets */; };
+		67B00E36195B47BC00A592C9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B00E35195B47BC00A592C9 /* XCTest.framework */; };
+		67B00E37195B47BC00A592C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B00E16195B47BC00A592C9 /* Foundation.framework */; };
+		67B00E38195B47BC00A592C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B00E1A195B47BC00A592C9 /* UIKit.framework */; };
+		67B00E40195B47BC00A592C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67B00E3E195B47BC00A592C9 /* InfoPlist.strings */; };
+		67B00E42195B47BC00A592C9 /* BAPSCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B00E41195B47BC00A592C9 /* BAPSCounterTests.m */; };
+		67B00E4D195B47E400A592C9 /* NGCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B00E4C195B47E400A592C9 /* NGCollectionViewController.m */; };
+		67B00E50195B484A00A592C9 /* NGCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B00E4F195B484A00A592C9 /* NGCollectionViewCell.m */; };
+		67F92418195C526200751C85 /* NGOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F92417195C526200751C85 /* NGOptionsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B00E39195B47BC00A592C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B00E0B195B47BC00A592C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B00E12195B47BC00A592C9;
+			remoteInfo = BAPSCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67AA63F4195B505500D55122 /* NGTotalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTotalCell.h; sourceTree = "<group>"; };
+		67AA63F5195B505500D55122 /* NGTotalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTotalCell.m; sourceTree = "<group>"; };
+		67B00E13195B47BC00A592C9 /* BAPSCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAPSCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B00E16195B47BC00A592C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67B00E18195B47BC00A592C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67B00E1A195B47BC00A592C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67B00E1E195B47BC00A592C9 /* BAPSCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BAPSCounter-Info.plist"; sourceTree = "<group>"; };
+		67B00E20195B47BC00A592C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67B00E22195B47BC00A592C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67B00E24195B47BC00A592C9 /* BAPSCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BAPSCounter-Prefix.pch"; sourceTree = "<group>"; };
+		67B00E25195B47BC00A592C9 /* NGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
+		67B00E26195B47BC00A592C9 /* NGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
+		67B00E29195B47BC00A592C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67B00E2B195B47BC00A592C9 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
+		67B00E2C195B47BC00A592C9 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+		67B00E2E195B47BC00A592C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67B00E34195B47BC00A592C9 /* BAPSCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BAPSCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B00E35195B47BC00A592C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		67B00E3D195B47BC00A592C9 /* BAPSCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BAPSCounterTests-Info.plist"; sourceTree = "<group>"; };
+		67B00E3F195B47BC00A592C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67B00E41195B47BC00A592C9 /* BAPSCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAPSCounterTests.m; sourceTree = "<group>"; };
+		67B00E4B195B47E400A592C9 /* NGCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionViewController.h; sourceTree = "<group>"; };
+		67B00E4C195B47E400A592C9 /* NGCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionViewController.m; sourceTree = "<group>"; };
+		67B00E4E195B484A00A592C9 /* NGCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGCollectionViewCell.h; sourceTree = "<group>"; };
+		67B00E4F195B484A00A592C9 /* NGCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGCollectionViewCell.m; sourceTree = "<group>"; };
+		67F92416195C526200751C85 /* NGOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGOptionsViewController.h; sourceTree = "<group>"; };
+		67F92417195C526200751C85 /* NGOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGOptionsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B00E10195B47BC00A592C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B00E19195B47BC00A592C9 /* CoreGraphics.framework in Frameworks */,
+				67B00E1B195B47BC00A592C9 /* UIKit.framework in Frameworks */,
+				67B00E17195B47BC00A592C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B00E31195B47BC00A592C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B00E36195B47BC00A592C9 /* XCTest.framework in Frameworks */,
+				67B00E38195B47BC00A592C9 /* UIKit.framework in Frameworks */,
+				67B00E37195B47BC00A592C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B00E0A195B47BC00A592C9 = {
+			isa = PBXGroup;
+			children = (
+				67B00E1C195B47BC00A592C9 /* BAPSCounter */,
+				67B00E3B195B47BC00A592C9 /* BAPSCounterTests */,
+				67B00E15195B47BC00A592C9 /* Frameworks */,
+				67B00E14195B47BC00A592C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B00E14195B47BC00A592C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B00E13195B47BC00A592C9 /* BAPSCounter.app */,
+				67B00E34195B47BC00A592C9 /* BAPSCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B00E15195B47BC00A592C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67B00E16195B47BC00A592C9 /* Foundation.framework */,
+				67B00E18195B47BC00A592C9 /* CoreGraphics.framework */,
+				67B00E1A195B47BC00A592C9 /* UIKit.framework */,
+				67B00E35195B47BC00A592C9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67B00E1C195B47BC00A592C9 /* BAPSCounter */ = {
+			isa = PBXGroup;
+			children = (
+				67B00E25195B47BC00A592C9 /* NGAppDelegate.h */,
+				67B00E26195B47BC00A592C9 /* NGAppDelegate.m */,
+				67B00E28195B47BC00A592C9 /* Main.storyboard */,
+				67F92416195C526200751C85 /* NGOptionsViewController.h */,
+				67F92417195C526200751C85 /* NGOptionsViewController.m */,
+				67AA63F4195B505500D55122 /* NGTotalCell.h */,
+				67AA63F5195B505500D55122 /* NGTotalCell.m */,
+				67B00E4E195B484A00A592C9 /* NGCollectionViewCell.h */,
+				67B00E4F195B484A00A592C9 /* NGCollectionViewCell.m */,
+				67B00E4B195B47E400A592C9 /* NGCollectionViewController.h */,
+				67B00E4C195B47E400A592C9 /* NGCollectionViewController.m */,
+				67B00E2B195B47BC00A592C9 /* NGViewController.h */,
+				67B00E2C195B47BC00A592C9 /* NGViewController.m */,
+				67B00E2E195B47BC00A592C9 /* Images.xcassets */,
+				67B00E1D195B47BC00A592C9 /* Supporting Files */,
+			);
+			path = BAPSCounter;
+			sourceTree = "<group>";
+		};
+		67B00E1D195B47BC00A592C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B00E1E195B47BC00A592C9 /* BAPSCounter-Info.plist */,
+				67B00E1F195B47BC00A592C9 /* InfoPlist.strings */,
+				67B00E22195B47BC00A592C9 /* main.m */,
+				67B00E24195B47BC00A592C9 /* BAPSCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B00E3B195B47BC00A592C9 /* BAPSCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B00E41195B47BC00A592C9 /* BAPSCounterTests.m */,
+				67B00E3C195B47BC00A592C9 /* Supporting Files */,
+			);
+			path = BAPSCounterTests;
+			sourceTree = "<group>";
+		};
+		67B00E3C195B47BC00A592C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B00E3D195B47BC00A592C9 /* BAPSCounterTests-Info.plist */,
+				67B00E3E195B47BC00A592C9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B00E12195B47BC00A592C9 /* BAPSCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B00E45195B47BC00A592C9 /* Build configuration list for PBXNativeTarget "BAPSCounter" */;
+			buildPhases = (
+				67B00E0F195B47BC00A592C9 /* Sources */,
+				67B00E10195B47BC00A592C9 /* Frameworks */,
+				67B00E11195B47BC00A592C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BAPSCounter;
+			productName = BAPSCounter;
+			productReference = 67B00E13195B47BC00A592C9 /* BAPSCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B00E33195B47BC00A592C9 /* BAPSCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B00E48195B47BC00A592C9 /* Build configuration list for PBXNativeTarget "BAPSCounterTests" */;
+			buildPhases = (
+				67B00E30195B47BC00A592C9 /* Sources */,
+				67B00E31195B47BC00A592C9 /* Frameworks */,
+				67B00E32195B47BC00A592C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B00E3A195B47BC00A592C9 /* PBXTargetDependency */,
+			);
+			name = BAPSCounterTests;
+			productName = BAPSCounterTests;
+			productReference = 67B00E34195B47BC00A592C9 /* BAPSCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B00E0B195B47BC00A592C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nikhil Gahlot";
+				TargetAttributes = {
+					67B00E12195B47BC00A592C9 = {
+						DevelopmentTeam = RMVAT4L4Q7;
+					};
+					67B00E33195B47BC00A592C9 = {
+						TestTargetID = 67B00E12195B47BC00A592C9;
+					};
+				};
+			};
+			buildConfigurationList = 67B00E0E195B47BC00A592C9 /* Build configuration list for PBXProject "BAPSCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B00E0A195B47BC00A592C9;
+			productRefGroup = 67B00E14195B47BC00A592C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B00E12195B47BC00A592C9 /* BAPSCounter */,
+				67B00E33195B47BC00A592C9 /* BAPSCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B00E11195B47BC00A592C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B00E2F195B47BC00A592C9 /* Images.xcassets in Resources */,
+				67B00E21195B47BC00A592C9 /* InfoPlist.strings in Resources */,
+				67B00E2A195B47BC00A592C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B00E32195B47BC00A592C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B00E40195B47BC00A592C9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B00E0F195B47BC00A592C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B00E2D195B47BC00A592C9 /* NGViewController.m in Sources */,
+				67AA63F6195B505500D55122 /* NGTotalCell.m in Sources */,
+				67B00E23195B47BC00A592C9 /* main.m in Sources */,
+				67B00E50195B484A00A592C9 /* NGCollectionViewCell.m in Sources */,
+				67B00E27195B47BC00A592C9 /* NGAppDelegate.m in Sources */,
+				67F92418195C526200751C85 /* NGOptionsViewController.m in Sources */,
+				67B00E4D195B47E400A592C9 /* NGCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B00E30195B47BC00A592C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B00E42195B47BC00A592C9 /* BAPSCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B00E3A195B47BC00A592C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B00E12195B47BC00A592C9 /* BAPSCounter */;
+			targetProxy = 67B00E39195B47BC00A592C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67B00E1F195B47BC00A592C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B00E20195B47BC00A592C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67B00E28195B47BC00A592C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B00E29195B47BC00A592C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67B00E3E195B47BC00A592C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B00E3F195B47BC00A592C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B00E43195B47BC00A592C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eloquence Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eloquence Corporation";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "C53F30C6-CCBE-46F6-950B-F571003F910E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		67B00E44195B47BC00A592C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Eloquence Corporation";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Eloquence Corporation";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "C53F30C6-CCBE-46F6-950B-F571003F910E";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B00E46195B47BC00A592C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BAPSCounter/BAPSCounter-Prefix.pch";
+				INFOPLIST_FILE = "BAPSCounter/BAPSCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C53F30C6-CCBE-46F6-950B-F571003F910E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67B00E47195B47BC00A592C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BAPSCounter/BAPSCounter-Prefix.pch";
+				INFOPLIST_FILE = "BAPSCounter/BAPSCounter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C53F30C6-CCBE-46F6-950B-F571003F910E";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67B00E49195B47BC00A592C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BAPSCounter.app/BAPSCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BAPSCounter/BAPSCounter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BAPSCounterTests/BAPSCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		67B00E4A195B47BC00A592C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BAPSCounter.app/BAPSCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BAPSCounter/BAPSCounter-Prefix.pch";
+				INFOPLIST_FILE = "BAPSCounterTests/BAPSCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B00E0E195B47BC00A592C9 /* Build configuration list for PBXProject "BAPSCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B00E43195B47BC00A592C9 /* Debug */,
+				67B00E44195B47BC00A592C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B00E45195B47BC00A592C9 /* Build configuration list for PBXNativeTarget "BAPSCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B00E46195B47BC00A592C9 /* Debug */,
+				67B00E47195B47BC00A592C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B00E48195B47BC00A592C9 /* Build configuration list for PBXNativeTarget "BAPSCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B00E49195B47BC00A592C9 /* Debug */,
+				67B00E4A195B47BC00A592C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B00E0B195B47BC00A592C9 /* Project object */;
+}
